@@ -1,0 +1,34 @@
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 40px 0 0 0;
+}
+
+.author {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.poem {
+    margin-top: 15px;
+    
+}
+
+.container {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.poem p:last-of-type {
+    margin-top: 30px;
+    text-align: right;
+}
